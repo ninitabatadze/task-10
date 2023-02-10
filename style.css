@@ -1,0 +1,3507 @@
+*,::after,::before {
+    box-sizing: border-box;}
+    body{overflow-x: hidden;width: 100%;padding: 0;margin: 0;}
+    @font-face {
+    font-family: "noto";
+    src: url(Fonts/NotoSans-Regular.ttf);
+    }
+    @font-face {
+    font-family: "nunito";
+    src: url(Fonts/Nunito-Regular.ttf);
+    }
+    .conteiner{
+     width: 100%; 
+     margin:0px;
+     height: 1156px;
+  background: linear-gradient(111.23deg, #E9F7FF 9.95%, #FFDBD5 85.17%);
+    }
+    nav{
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    margin-top: -40px;
+    gap: 50px;
+    margin-left:421px;
+    position: relative;
+        }
+    .promote1{
+    top: 35px;
+    position: relative;
+    margin-left: 100px;
+    }
+    .getstart{
+    width: 173px;
+    height: 64px;
+    border: none;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #ffffff;
+    background: #292930;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 39px 18px;
+    gap: 10px;
+    border-radius: 7px;
+    white-space: nowrap;
+    }
+    .getstart:hover{
+    cursor: pointer;
+    color: #292930;
+    background-color: transparent;
+    border: 1px solid #292930;
+    }
+    
+    .menu-1{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-decoration: none;
+    color: #292930;
+    }
+    
+    .menu-1::after {
+    content: '';
+    position: absolute;
+    left: 360px;
+    bottom: 30px;
+    width: 0%;
+    height: 2px;
+    height: 5%;
+    background-color: #FFDC60;
+    transition: all .2s;
+    }
+    
+    .menu-1::before {
+    content: '';
+    position: absolute;
+    left: 360px;
+    bottom: 30px;
+    width: 0%;
+    height: 2px;
+    height: 5%;
+    background-color: #5956E8;
+    transition: all .2s;
+    }
+    
+    .menu-1:hover::before {
+    width: 10%;
+    transition-delay: .1s;
+    }
+    
+    .menu-1:hover::after {
+    width: 5%;
+    }
+    
+    .menu-2{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-decoration: none;
+    color: #292930;
+    }
+    .menu-2::after {
+    content: '';
+    position: absolute;
+    left: 460px;
+    bottom: 30px;
+    width: 0%;
+    height: 2px;
+    height: 5%;
+    background-color: #FFDC60;
+    transition: all .2s;
+    }
+    .menu-2::before {
+    content: '';
+    position: absolute;
+    left: 460px;
+    bottom: 30px;
+    width: 0%;
+    height: 2px;
+    height: 5%;
+    background-color: #5956E8;
+    transition: all .2s;
+    }
+    .menu-2:hover::before {
+    width: 10%;
+    transition-delay: .1s;
+    }
+    .menu-2:hover::after {
+    width: 5%;
+    }
+    .menu-3{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-decoration: none;
+    color: #292930;
+    }
+    .menu-3::after {
+        content: '';
+        position: absolute;
+        left: 560px;
+        bottom: 30px;
+        width: 0%;
+        height: 2px;
+        height: 5%;
+        background-color: #FFDC60;
+        transition: all .2s;
+        }
+        
+        .menu-3::before {
+        content: '';
+        position: absolute;
+        left: 560px;
+        bottom: 30px;
+        width: 0%;
+        height: 2px;
+        height: 5%;
+        background-color: #5956E8;
+        transition: all .2s;
+        }
+        
+        .menu-3:hover::before {
+        width: 13%;
+        transition-delay: .1s;
+        }
+        
+        .menu-3:hover::after {
+        width: 6.5%;
+        }
+    .menu-4{
+    position: relative;
+    top: 10px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-decoration: none;
+    color: #292930;
+    }
+     .menu-5::after {
+    content: '';
+    position: absolute;
+    left: 790px;
+    bottom: 29px;
+    width: 0%;
+    height: 2px;
+    height: 5%;
+    background-color: #FFDC60;
+    transition: all .2s;
+    }
+    
+    .menu-5::before {
+    content: '';
+    position: absolute;
+    left: 790px;
+    bottom: 29px;
+    width: 0%;
+    height: 2px;
+    height: 5%;
+    background-color: #5956E8;
+    transition: all .2s;
+    }
+    
+    .menu-5:hover::before {
+    width: 7%;
+    transition-delay: .1s;
+    }
+    
+    .menu-5:hover::after {
+    width: 3.5%;
+    }
+    .menu-5{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-decoration: none;
+    color: #292930;
+    }
+    .menu-6{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-decoration: none;
+    color: #292930;
+    }
+    .menu-6::after {
+        content: '';
+        position: absolute;
+        left: 875px;
+        bottom: 28px;
+        width: 0%;
+        height: 2px;
+        height: 5%;
+        background-color: #FFDC60;
+        transition: all .2s;
+        }
+        
+        .menu-6::before {
+        content: '';
+        position: absolute;
+        left: 878px;
+        bottom: 28px;
+        width: 0%;
+        height: 2px;
+        height: 5%;
+        background-color: #5956E8;
+        transition: all .2s;
+        }
+        
+        .menu-6:hover::before {
+        width: 9%;
+        transition-delay: .1s;
+        }
+        
+        .menu-6:hover::after {
+        width: 5%;
+        }
+    .arrow{
+     position: relative;
+     top: -10px;
+     left: 40px;
+    }        
+    .dropdown1 a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-family: "nunito";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-transform: capitalize;
+    text-decoration: none;
+    position: relative;
+    }
+    .dropdown1 {
+        display: none;
+        position: absolute;
+        background-color: #e1edf9;
+        width: 150px;
+        z-index: 1;
+        border-radius: 10px;
+    }
+    .dropdown {
+    position: relative;
+    display: inline-block;
+    }
+    .dropdown:hover .dropdown1
+    {display: block;}
+    .dropdown-butn{
+    background-color: transparent;
+    border:none;}
+    .dropdown1 a:hover{
+    color: black;
+    font-weight: 500;
+    }
+  
+    .agency{
+    width: 0px;
+    font-family: 'Noto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 156.5%;
+    letter-spacing: 0.135em;
+    text-transform: uppercase;
+    position: relative;
+    top: 175px;
+    left: 130px;
+    }
+    .slash{
+    position: relative;
+    display: flex;
+    color:#FEC90C;
+    width: 0px;
+    left: -15px;
+    top: 23px;
+    }
+    .fully{
+    white-space: nowrap;
+    width: 0px;
+    position: relative;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 110.5%;
+    color: #292930;
+    top: -1600px;
+    left: 110px;
+    }
+    .mark-purple{
+    color: #5956E8;
+    }
+    .lorem{
+     width: 0px;
+    font-family: 'Noto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156.5%;
+    top: -1610px;
+    left: 119px;
+    position: relative;
+    color: #555555;
+    white-space: nowrap;
+    }
+    .ourservice{
+    top: -1560px;
+    left: 120px;
+    position: relative;
+    border: none;
+    white-space: nowrap;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    width: 182px;
+    height: 64px;
+    background: #292930;
+    border-radius: 7px;
+    }
+    .ourservice:hover{
+    cursor: pointer;
+    color: #292930;
+    background-color: transparent;
+    border: 1px solid #292930;
+    }
+    .getstart2{
+    top: -1560px;
+    left: 140px;
+    position: relative;
+    border: none;
+    white-space: nowrap;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    width: 182px;
+    height: 64px;
+    background: #292930;
+    border-radius: 7px;
+    }
+    .getstart2:hover{
+    cursor: pointer;
+    color: #292930;
+    background-color: transparent;
+    border: 1px solid #292930;
+    }
+    .black-content{
+    position: absolute;
+    width: 100%;
+    height: 1579px;
+    left: 0px;
+    top: 1091px;
+    background: #292930;
+    }
+    .gear{
+    position: relative;
+    top: 130px;
+    left: 113px;
+    }
+    .services{
+    position: relative;
+    top: 25px;
+    left: 253px;
+    font-family: 'Noto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 156.5%;
+    color:#D0D0D0;
+    letter-spacing: 0.135em;
+    text-transform: uppercase;
+    }
+    .slash1{
+    color: #FEC90C;
+    }
+    .impact{
+    width: 0px;
+    position: relative;
+    top: 10px;
+    left: 255px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 110.5%;
+    color: #FFFFFF;
+    white-space: nowrap;
+    }
+    .ourservice1{
+    border: none;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #292930;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 24px 18px;
+    gap: 10px;
+    width: 174px;
+    height: 62px;
+    background: #FFFFFF;
+    border-radius: 7px;
+    position: relative;
+    top:-90px;
+    left:1011px;
+    }
+    .arrow-4{
+    position: relative;
+    left:1160px;
+    top:-129px;
+    }
+    .box1{
+    width: 352px;
+    height: 475px;
+    background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+    border: 1px solid #424245;
+    border-radius: 30px;
+    position: relative;
+    left: 70px;
+    top:0px;
+    }
+    .mobile{
+    position: relative;
+    left: 35px;
+    top:38px;
+    }
+    .social-mark{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 110.5%;
+    color: #FFFFFF;
+    position: relative;
+    top: 15px;
+    left: 45px;
+    }
+    .lorem1{
+    font-family: 'Noto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156.5%;
+    position: relative;
+    left: 45px;
+    color: #D0D0D0;
+    }
+    .box2{
+    width: 352px;
+    height: 475px;
+    background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+    border: 1px solid #424245;
+    border-radius: 30px;
+    position: relative;
+    left: 500px;
+    top: -475px;
+    }
+    .lorem2{
+    font-family: 'Noto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156.5%;
+    position: relative;
+    left: 45px;
+    color: #D0D0D0;
+    top:3px;
+    }
+    .readmore2{
+        border: 1px solid #535355;
+        top: 2px;
+        width: 266px;
+        height: 62px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 160%;
+        text-align: center;
+        text-transform: capitalize;
+        color: #535355;
+        position: relative;
+        left: 45px;
+        background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+        border-radius: 7px;
+    }
+    .readmore2:hover{
+        cursor: pointer;
+        background: #FFDC60;
+        color: #292930;
+        border: 1px solid #292930;
+        }
+        .readmore2:hover .svg{
+            fill: z;
+        }
+
+    .box3{
+    width: 352px;
+    height: 475px;
+    background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+    border: 1px solid #424245;
+    border-radius: 30px;
+    position: relative;
+    left: 930px;
+    top: -950px;
+    }
+    .paid{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 110.5%;
+    color: #FFFFFF;
+    position: relative;
+    top: 15px;
+    left: 45px;    
+    }
+    .megaphone{
+    position: relative;
+    left: 35px;
+    top:38px;
+    }
+    
+    .icons{
+    position: relative;
+    left: 35px;
+    top:38px;   
+    }
+    .box4{
+    width: 352px;
+    height: 475px;
+    background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+    border: 1px solid #424245;
+    border-radius: 30px;
+    position: relative;
+    left: 70px;
+    top:-890px;
+    }
+    .box5{
+    width: 352px;
+    height: 475px;
+    background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+    border: 1px solid #424245;
+    border-radius: 30px;
+    position: relative;
+    left: 500px;
+    top:-1366px;
+    }
+    .funel{
+    position: relative;
+    left: 35px;
+    top:38px;   
+    }
+    
+    .box6{
+    width: 352px;
+    height: 475px;
+    background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+    border: 1px solid #424245;
+    border-radius: 30px;
+    position: relative;
+    left: 930px;
+    top:-1837px;
+    }
+    .condent{
+    position: relative;
+    left: 35px;
+    top:38px;   
+    }
+    .white-content{
+    position: relative;
+    width: 100%;
+    height: 1034px;
+    left: 0px;
+    top: 2670px;
+    background: #ffffff;
+    }
+    .icon6{
+    margin-top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .price{
+    text-align: center;
+    font-family: 'Noto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 156.5%;
+    letter-spacing: 0.135em;
+    text-transform: uppercase;
+    }
+    .slash2{
+    color: #5956E8;
+    }
+    .ourflex{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 110.5%;
+    text-align: center;
+    color: #292930;
+    }
+    .box7{
+    position: absolute;
+    width: 389px;
+    height: 554px;
+    left: 59px;
+    top: 343px;
+    background: #F7F7F7;
+    border: 1px solid #E2E2E2;
+    border-radius: 10px;
+    }
+    .starter1{ font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 110.5%;
+    text-align: center;
+    color: #292930;
+    }
+    .icons9{
+    position: relative;
+    left: 59px;
+     }
+    .per{
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 110.5%;
+    text-align: center;
+    color: #292930;
+    margin-right: 10px;
+    position: relative;
+    top: -106px;
+    }
+    .per-month{
+    font-family: 'Noto ';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 244%;
+    position: relative;
+    top: -208px;
+    left: 252px;
+    color: #555555;
+    }
+    .check1{
+    font-family: "Noto ";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 244%;
+    position: relative;
+    left: 81px;
+    top: -30px;
+    color: #555555;
+    }
+    .line2{
+    width: 302px;
+    height: 0px;
+    border: 1px solid #D3D3D3;
+    margin-top: -161px;
+    }
+    .check-2{
+    position: relative;
+    left: -35px;
+    top:20px;
+    }
+    .promote1{
+    top: 35px;
+    position: relative;
+    margin-left: 100px;
+    }
+    .getstart{
+    width: 173px;
+    height: 64px;
+    border: none;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #ffffff;
+    background: #292930;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 39px 18px;
+    gap: 10px;
+    border-radius: 7px;
+    white-space: nowrap;
+    }
+    .getstart:hover{
+    cursor: pointer;
+    color: #292930;
+    background-color: transparent;
+    border: 1px solid #292930;
+    }
+    .menu-1{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-decoration: none;
+    color: #292930;
+    }
+    .menu-2{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-decoration: none;
+    color: #292930;
+    }
+    .menu-3{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-decoration: none;
+    color: #292930;
+    }
+    .menu-4{
+    position: relative;
+    top: 10px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-decoration: none;
+    color: #292930;
+    }
+    .menu-5{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-decoration: none;
+    color: #292930;
+    }
+    .menu-6{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-decoration: none;
+    color: #292930;
+    }
+    .arrow{
+    position: relative;
+    top: -10px;
+    left: 40px;
+    }        
+    .dropdown1 a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-family: "nunito";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-transform: capitalize;
+    text-decoration: none;
+    position: relative;
+    }
+    .dropdown1 {
+    display: none;
+    position: absolute;
+    background-color: #e1edf9;
+    width: 150px;
+    z-index: 1;
+    border-radius: 10px;
+    }
+    .dropdown {
+    position: relative;
+    display: inline-block;
+    }
+    .dropdown:hover .dropdown1
+    {display: block;
+    }
+    .dropdown-butn{
+    background-color: transparent;
+    border:none;
+    }
+    .dropdown1 a:hover{
+    color: black;
+    font-weight: 500;
+    }
+
+    .agency{
+    width: 0px;
+    font-family: 'Noto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 156.5%;
+    letter-spacing: 0.135em;
+    text-transform: uppercase;
+    position: relative;
+    top: 175px;
+    left: 130px;
+    }
+    .slash{
+    position: relative;
+    display: flex;
+    color:#FEC90C;
+    width: 0px;
+    left: -15px;
+    top: 23px;
+    }
+        .fully{
+            white-space: nowrap;
+            width: 0px;
+            position: relative;
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 70px;
+            line-height: 110.5%;
+        
+            color: #292930;
+            top: -1600px;
+            left: 110px;
+        }
+        .mark-purple{
+        color: #5956E8;
+        }
+        .lorem{
+            width: 0px;
+            font-family: 'Noto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 156.5%;
+            top: -1610px;
+            left: 119px;
+            position: relative;
+            color: #555555;
+            white-space: nowrap;
+        }
+        .ourservice{
+        top: -1560px;
+        left: 120px;
+        position: relative;
+        border: none;
+        white-space: nowrap;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 160%;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        width: 182px;
+        height: 64px;
+        background: #292930;
+        border-radius: 7px;
+        }
+        .ourservice:hover{
+            cursor: pointer;
+            color: #292930;
+            background-color: transparent;
+            border: 1px solid #292930;
+            }
+        .getstart2{
+        top: -1560px;
+        left: 140px;
+        position: relative;
+        border: none;
+        white-space: nowrap;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 160%;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        width: 182px;
+        height: 64px;
+        background: #292930;
+        border-radius: 7px;
+        }
+        .getstart2:hover{
+            cursor: pointer;
+            color: #292930;
+            background-color: transparent;
+            border: 1px solid #292930;
+            }
+        .black-content{
+            position: absolute;
+            width: 100%;
+            height: 1579px;
+            left: 0px;
+            top: 1091px;
+            background: #292930;
+        }
+        .gear{
+            position: relative;
+            top: 130px;
+            left: 113px;
+        }
+        .services{
+            position: relative;
+            top: 25px;
+            left: 253px;
+            font-family: 'Noto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 156.5%;
+        color:#D0D0D0;
+        letter-spacing: 0.135em;
+        text-transform: uppercase;
+        
+        }
+        .slash1{
+            color: #FEC90C;
+        }
+        .impact{
+            width: 0px;
+            position: relative;
+            top: 10px;
+            left: 255px;
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 110.5%;
+            color: #FFFFFF;
+            white-space: nowrap;
+        }
+        .ourservice1{
+        border: none;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 160%;
+        
+        
+        text-transform: capitalize;
+        
+        color: #292930;
+            display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 17px 24px 18px;
+        gap: 10px;
+        
+        width: 174px;
+        height: 62px;
+        
+        background: #FFFFFF;
+        border-radius: 7px;
+        position: relative;
+        top:-90px;
+        left:1011px;
+        }
+        .arrow-4{
+            position: relative;
+            left:1160px;
+            top:-129px;
+        }
+        .box1{
+            width: 352px;
+            height: 475px;
+            background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+            border: 1px solid #424245;
+            border-radius: 30px;
+            position: relative;
+            left: 70px;
+            top:0px;
+        }
+        .mobile{
+            position: relative;
+            left: 35px;
+            top:38px;
+        }
+        .social-mark{
+            font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 110.5%;
+        color: #FFFFFF;
+        position: relative;
+        top: 15px;
+        left: 45px;
+        }
+        .lorem1{
+            font-family: 'Noto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 156.5%;
+        position: relative;
+        left: 45px;
+        
+        
+        color: #D0D0D0;
+        
+        }
+        .readmore2{
+            border: 1px solid #535355;
+            top: 2px;
+            width: 266px;
+            height: 62px;
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 160%;
+            text-align: center;
+            text-transform: capitalize;
+            color: #535355;
+            position: relative;
+            left: 45px;
+            background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+            border-radius: 7px;
+        }
+        .readmore2:hover{
+            cursor: pointer;
+            background: #FFDC60;
+            color: #292930;
+            border: 1px solid #292930;
+            }
+        .box2{
+            width: 352px;
+            height: 475px;
+            background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+            border: 1px solid #424245;
+            border-radius: 30px;
+            position: relative;
+            left: 500px;
+            top: -475px;
+        }
+        .lorem2{
+            font-family: 'Noto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 156.5%;
+            position: relative;
+            left: 45px;
+            color: #D0D0D0;
+            top:3px;
+        }
+        .readmore2{
+            border: 1px solid #535355;
+            top: 2px;
+            width: 266px;
+            height: 62px;
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 160%;
+            text-align: center;
+            text-transform: capitalize;
+            color: #535355;
+            position: relative;
+            left: 45px;
+            background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+            border-radius: 7px;
+        }
+        .readmore2:hover{
+            cursor: pointer;
+            background: #FFDC60;
+            color: #292930;
+            border: 1px solid #292930;
+            }
+        .box3{
+            width: 352px;
+            height: 475px;
+            background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+            border: 1px solid #424245;
+            border-radius: 30px;
+            position: relative;
+            left: 930px;
+            top: -950px;
+        }
+        .paid{
+            font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 110.5%;
+        color: #FFFFFF;
+        position: relative;
+        top: 15px;
+        left: 45px;    
+        }
+        .megaphone{
+            position: relative;
+            left: 35px;
+            top:38px;
+        }
+        
+        .icons{
+            position: relative;
+            left: 35px;
+            top:38px;   
+        }
+        .box4{
+            width: 352px;
+            height: 475px;
+            background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+            border: 1px solid #424245;
+            border-radius: 30px;
+            position: relative;
+            left: 70px;
+            top:-890px;
+        }
+        
+        .box5{
+            width: 352px;
+            height: 475px;
+            background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+            border: 1px solid #424245;
+            border-radius: 30px;
+            position: relative;
+            left: 500px;
+            top:-1366px;
+        }
+        .funel{
+            position: relative;
+            left: 35px;
+            top:38px;   
+        }
+        
+        .box6{
+            width: 352px;
+            height: 475px;
+            background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+            border: 1px solid #424245;
+            border-radius: 30px;
+            position: relative;
+            left: 930px;
+            top:-1837px;
+        }
+        .condent{
+            position: relative;
+            left: 35px;
+            top:38px;   
+        }
+     
+        .icon6{
+            margin-top: 100px;
+            display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .price{
+        text-align: center;
+        font-family: 'Noto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 156.5%;
+        letter-spacing: 0.135em;
+        text-transform: uppercase;
+        }
+        .slash2{
+            color: #5956E8;
+        }
+        .ourflex{
+            font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 110.5%;
+        text-align: center;
+        color: #292930;
+        }
+        .buying-plan{
+            position: relative;
+        width: 389px;
+        height: 554px;
+        left: 59px;
+        top: 343px;
+        
+        background: #F7F7F7;
+        border: 1px solid #E2E2E2;
+        border-radius: 10px;
+        }
+        .starter1{
+            font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 110.5%;
+        
+        text-align: center;
+        
+        color: #292930;
+        
+        }
+        .icons9{
+            position: relative;
+            left: 59px;
+         
+        }
+        .per{
+            font-family: "Nunito";
+            font-style: normal;
+            font-weight: 900;
+            font-size: 50px;
+            line-height: 110.5%;
+            text-align: center;
+            color: #292930;
+            margin-right: 10px;
+            position: relative;
+            top: -106px;
+        
+        }
+        .per-month{
+            font-family: 'Noto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 244%;
+        position: relative;
+        top: -208px;
+        left: 252px;
+        
+        color: #555555;
+        }
+        .check1{
+            margin-top: -5px;
+            font-family: "Noto";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 244%;
+            position: relative;
+            left: 48px;
+            top: 10px;
+            color: #555555;
+        }
+       
+        .check-2{
+            position: relative;
+            left: -4px;
+            top: 3px;
+            }
+            .check-3{
+                position: relative;
+                left: -35px;
+                top: 64px;
+                }
+        .check-3{
+            position: relative;
+            left: -5px;
+            top: 3px
+        }
+            
+            .check22{
+                font-family: "Noto";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 244%;
+                position: relative;
+                left: 50px;
+                top: 0px;
+                color: #555555;
+            }
+            .check23{
+                font-family: "Noto";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 244%;
+                position: relative;
+                left: 47px;
+                top: -10px;
+                color: #555555;
+            }
+            .check-4{
+                position: relative;
+                left: -2px;
+                top: 2px;
+            }
+                
+            .check24{
+                font-family: "Noto";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 244%;
+                position: relative;
+                left: 47px;
+                top: -20px;
+                color: #555555;
+            }
+            .check-5{
+                position: relative;
+                left: -2px;
+                top: 2px;
+            }
+                
+            .check25{
+                font-family: "Noto";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 244%;
+                position: relative;
+                left: 47px;
+                top: -30px;
+                color: #555555;
+            }
+            .check-6{
+                position: relative;
+                left: -2px;
+                top: 2px;
+            }
+               
+            .purchase1{
+                border: none;
+    width: 313px;
+                
+    height: 64px;
+                
+    background: #292930;
+                
+    border-radius: 7px;
+                
+    font-family: 'Nunito';
+                
+    font-style: normal;
+                
+    font-weight: 500;
+                
+    font-size: 18px;
+                
+    line-height: 160%;
+                
+    position: relative;
+                
+    left: 40px;
+                
+    top: -20px;
+                
+    text-align: center;
+                
+    text-transform: capitalize;
+                
+    color: #FFFFFF;
+            }
+            .buying{
+             
+            width: 389px;
+            height: 554px;
+            position: relative;
+            left: 59px;
+            top: 343px;
+            
+            background: #F7F7F7;
+            border: 1px solid #E2E2E2;
+            border-radius: 10px;
+            }       
+            .icons10{
+                position: relative;
+                left: 20px;
+                top: 20px;
+            }
+            .promote1{
+            top: 35px;
+            position: relative;
+            margin-left: 100px;
+            }
+            .getstart{
+            width: 173px;
+            height: 64px;
+            border: none;
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 160%;
+            color: #ffffff;
+            background: #292930;
+            border-radius: 7px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 17px 39px 18px;
+            gap: 10px;
+            border-radius: 7px;
+            white-space: nowrap;
+            }
+            .getstart:hover{
+            cursor: pointer;
+            color: #292930;
+            background-color: transparent;
+            border: 1px solid #292930;
+            }
+            
+            .menu-1{
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 160%;
+            text-decoration: none;
+            color: #292930;
+            }
+            .menu-2{
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 160%;
+            text-decoration: none;
+            color: #292930;
+            }
+            .menu-3{
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 160%;
+            text-decoration: none;
+            color: #292930;
+            }
+            .menu-4{
+            position: relative;
+            top: 10px;
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 160%;
+            text-decoration: none;
+            color: #292930;
+            }
+            .menu-5{
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 160%;
+            text-decoration: none;
+            color: #292930;
+            }
+            .menu-6{
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 160%;
+            text-decoration: none;
+            color: #292930;
+            }
+            .arrow{
+             position: relative;
+             top: -10px;
+             left: 40px;
+            }        
+            .dropdown1 a {
+                display: block;
+                color: black;
+                text-decoration: none;
+                padding: 5px 10px;
+                font-family: "nunito";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 160%;
+                text-transform: capitalize;
+                text-decoration: none;
+                position: relative;
+            }
+            
+            .dropdown1 {
+                display: none;
+                position: absolute;
+                background-color: #e1edf9;
+                width: 150px;
+                z-index: 1;
+                border-radius: 10px;
+            }
+            .dropdown {
+                position: relative;
+                display: inline-block;
+            }
+            .dropdown:hover .dropdown1
+                {display: block;
+                }
+                .dropdown-butn{
+                    background-color: transparent;
+                    border:none;
+                }
+                .dropdown1 a:hover{
+                    color: black;
+                    font-weight: 500;
+                }
+       
+            .agency{
+                
+            width: 0px;
+                
+            font-family: 'Noto';
+                
+            font-style: normal;
+                
+            font-weight: 500;
+                
+            font-size: 15px;
+                
+            line-height: 156.5%;
+            
+                
+            letter-spacing: 0.135em;
+                
+            text-transform: uppercase;
+                
+            position: relative;
+                
+            top: 175px;
+                
+            left: 130px;
+            }
+            .slash{
+                position: relative;
+                display: flex;
+                color:#FEC90C;
+                width: 0px;
+                left: -15px;
+                top: 23px;
+            }
+            .fully{
+                white-space: nowrap;
+                width: 0px;
+                position: relative;
+                font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 800;
+                font-size: 70px;
+                line-height: 110.5%;
+            
+                color: #292930;
+                top: -1600px;
+                left: 110px;
+            }
+            .mark-purple{
+            color: #5956E8;
+            }
+            .lorem{
+                width: 0px;
+                font-family: 'Noto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 156.5%;
+                top: -1610px;
+                left: 119px;
+                position: relative;
+                color: #555555;
+                white-space: nowrap;
+            }
+            .ourservice{
+            top: -1560px;
+            left: 120px;
+            position: relative;
+            border: none;
+            white-space: nowrap;
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 160%;
+            text-transform: capitalize;
+            color: #FFFFFF;
+            width: 182px;
+            height: 64px;
+            background: #292930;
+            border-radius: 7px;
+            }
+            .ourservice:hover{
+                cursor: pointer;
+                color: #292930;
+                background-color: transparent;
+                border: 1px solid #292930;
+                }
+            .getstart2{
+            top: -1560px;
+            left: 140px;
+            position: relative;
+            border: none;
+            white-space: nowrap;
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 160%;
+            text-transform: capitalize;
+            color: #FFFFFF;
+            width: 182px;
+            height: 64px;
+            background: #292930;
+            border-radius: 7px;
+            }
+            .getstart2:hover{
+                cursor: pointer;
+                color: #292930;
+                background-color: transparent;
+                border: 1px solid #292930;
+                }
+            .black-content{
+                position: absolute;
+                width: 100%;
+                height: 1579px;
+                left: 0px;
+                top: 1091px;
+                background: #292930;
+            }
+            .gear{
+                position: relative;
+                top: 130px;
+                left: 113px;
+            }
+            .services{
+                position: relative;
+                top: 25px;
+                left: 253px;
+                font-family: 'Noto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 156.5%;
+            color:#D0D0D0;
+            letter-spacing: 0.135em;
+            text-transform: uppercase;
+            
+            }
+            .slash1{
+                color: #FEC90C;
+            }
+            .impact{
+                width: 0px;
+                position: relative;
+                top: 10px;
+                left: 255px;
+                font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 40px;
+                line-height: 110.5%;
+                color: #FFFFFF;
+                white-space: nowrap;
+            }
+           .ourservice1{
+            border: none;
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 160%;
+            
+            
+            text-transform: capitalize;
+            
+            color: #292930;
+                display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 17px 24px 18px;
+            gap: 10px;
+            
+            width: 174px;
+            height: 62px;
+            
+            background: #FFFFFF;
+            border-radius: 7px;
+            position: relative;
+            top:-90px;
+            left:1011px;
+            }
+            .arrow-4{
+                position: relative;
+                left:1160px;
+                top:-129px;
+            }
+            .box1{
+                width: 352px;
+                height: 475px;
+                background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+                border: 1px solid #424245;
+                border-radius: 30px;
+                position: relative;
+                left: 70px;
+                top:0px;
+            }
+            .mobile{
+                position: relative;
+                left: 35px;
+                top:38px;
+            }
+            .social-mark{
+                font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 110.5%;
+            color: #FFFFFF;
+            position: relative;
+            top: 15px;
+            left: 45px;
+            }
+            .lorem1{
+                font-family: 'Noto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 156.5%;
+            position: relative;
+            left: 45px;
+            
+            
+            color: #D0D0D0;
+            
+            }
+            .readmore2{
+                border: 1px solid #535355;
+                top: 2px;
+                width: 266px;
+                height: 62px;
+                font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 160%;
+                text-align: center;
+                text-transform: capitalize;
+                color: #535355;
+                position: relative;
+                left: 45px;
+                background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+                border-radius: 7px;
+            }
+            .readmore2:hover{
+                cursor: pointer;
+                background: #FFDC60;
+                color: #292930;
+                border: 1px solid #292930;
+                }
+            .box2{
+                width: 352px;
+                height: 475px;
+                background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+                border: 1px solid #424245;
+                border-radius: 30px;
+                position: relative;
+                left: 500px;
+                top: -475px;
+            }
+            .lorem2{
+                font-family: 'Noto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 156.5%;
+                position: relative;
+                left: 45px;
+                color: #D0D0D0;
+                top:3px;
+            }
+            .readmore2{
+                border: 1px solid #535355;
+                top: 2px;
+                width: 266px;
+                height: 62px;
+                font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 160%;
+                text-align: center;
+                text-transform: capitalize;
+                color: #535355;
+                position: relative;
+                left: 45px;
+                background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+                border-radius: 7px;
+            }
+            .readmore2:hover{
+                cursor: pointer;
+                background: #FFDC60;
+                color: #292930;
+                border: 1px solid #292930;
+                }
+            .box3{
+                width: 352px;
+                height: 475px;
+                background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+                border: 1px solid #424245;
+                border-radius: 30px;
+                position: relative;
+                left: 930px;
+                top: -950px;
+            }
+            .paid{
+                font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 110.5%;
+            color: #FFFFFF;
+            position: relative;
+            top: 15px;
+            left: 45px;    
+            }
+            .megaphone{
+                position: relative;
+                left: 35px;
+                top:38px;
+            }
+            
+            .icons{
+                position: relative;
+                left: 35px;
+                top:38px;   
+            }
+            .box4{
+                width: 352px;
+                height: 475px;
+                background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+                border: 1px solid #424245;
+                border-radius: 30px;
+                position: relative;
+                left: 70px;
+                top:-890px;
+            }
+            
+            .box5{
+                width: 352px;
+                height: 475px;
+                background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+                border: 1px solid #424245;
+                border-radius: 30px;
+                position: relative;
+                left: 500px;
+                top:-1366px;
+            }
+            .funel{
+                position: relative;
+                left: 35px;
+                top:38px;   
+            }
+            
+            .box6{
+                width: 352px;
+                height: 475px;
+                background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+                border: 1px solid #424245;
+                border-radius: 30px;
+                position: relative;
+                left: 930px;
+                top:-1837px;
+            }
+            .condent{
+                position: relative;
+                left: 35px;
+                top:38px;   
+            }
+      
+            .icon6{
+                margin-top: 100px;
+                display: block;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            .price{
+            text-align: center;
+            font-family: 'Noto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 156.5%;
+            letter-spacing: 0.135em;
+            text-transform: uppercase;
+            }
+            .slash2{
+                color: #5956E8;
+            }
+            .ourflex{
+                font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 110.5%;
+            text-align: center;
+            color: #292930;
+            }
+            .box7{
+                position: absolute;
+            width: 389px;
+            height: 554px;
+            left: 59px;
+            top: 343px;
+            
+            background: #F7F7F7;
+            border: 1px solid #E2E2E2;
+            border-radius: 10px;
+            }
+            .starter1{
+                font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 25px;
+            line-height: 110.5%;
+            
+            text-align: center;
+            
+            color: #292930;
+            
+            }
+            .icons9{
+                position: relative;
+                left: 59px;
+             
+            }
+            .per{
+                font-family: "Nunito";
+                font-style: normal;
+                font-weight: 900;
+                font-size: 50px;
+                line-height: 110.5%;
+                text-align: center;
+                color: #292930;
+                margin-right: 10px;
+                position: relative;
+                top: -106px;
+            
+            }
+            .per-month{
+                font-family: 'Noto ';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 244%;
+            position: relative;
+            top: -208px;
+            left: 252px;
+            
+            color: #555555;
+            }
+            .check1{
+                font-family: "Noto ";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 244%;
+            position: relative;
+            left: 81px;
+            top: -30px;
+                
+                color: #555555;
+                   
+            }
+            .line2{
+                width: 302px;
+                height: 0px;
+                border: 1px solid #D3D3D3;
+                margin-top: -161px;
+            
+            }
+            .check-2{
+                position: relative;
+                left: -35px;
+                top:20px;
+                }*,::after,::before {
+                    box-sizing: border-box;}
+                body{overflow-x: hidden;width: 100%;padding: 0;margin: 0;}
+                @font-face {
+                font-family: "noto";
+                src: url(Fonts/NotoSans-Regular.ttf);
+                }
+                @font-face {
+                font-family: "nunito";
+                src: url(Fonts/Nunito-Regular.ttf);
+                }
+           
+                nav{
+                    margin: 0 auto;
+                    z-index: 1;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 500px;
+                    top: 40px;
+                    gap: 50px;
+                    left: -300px;
+                    }
+                .promote1{
+                top: 0px;
+                position: relative;
+                left: -60px;
+                }
+                .getstart{
+                width: 173px;
+                height: 64px;
+                border: none;
+                font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 160%;
+                color: #ffffff;
+                background: #292930;
+                border-radius: 7px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 17px 39px 18px;
+                gap: 10px;
+                border-radius: 7px;
+                white-space: nowrap;
+                }
+                .getstart:hover{
+                cursor: pointer;
+                color: #292930;
+                background-color: transparent;
+                border: 1px solid #292930;
+                }
+                
+                .menu-1{
+                font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 160%;
+                text-decoration: none;
+                color: #292930;
+                }
+                .menu-2{
+                font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 160%;
+                text-decoration: none;
+                color: #292930;
+                }
+                .menu-3{
+                font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 160%;
+                text-decoration: none;
+                color: #292930;
+                }
+                .menu-4{
+                position: relative;
+                top: 10px;
+                font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 160%;
+                text-decoration: none;
+                color: #292930;
+                }
+                .menu-5{
+                font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 160%;
+                text-decoration: none;
+                color: #292930;
+                }
+                .menu-6{
+                font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 160%;
+                text-decoration: none;
+                color: #292930;
+                }
+                .arrow{
+                 position: relative;
+                 top: -10px;
+                 left: 40px;
+                }        
+                .dropdown1 a {
+                    display: block;
+                    color: black;
+                    text-decoration: none;
+                    padding: 5px 10px;
+                    font-family: "nunito";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 160%;
+                    text-transform: capitalize;
+                    text-decoration: none;
+                    position: relative;
+                }
+                
+                .dropdown1 {
+                    display: none;
+                    position: absolute;
+                    background-color: #e1edf9;
+                    width: 150px;
+                    z-index: 1;
+                    border-radius: 10px;
+                }
+                .dropdown {
+                    position: relative;
+                    display: inline-block;
+                }
+                .dropdown:hover .dropdown1
+                    {display: block;
+                    }
+                    .dropdown-butn{
+                        background-color: transparent;
+                        border:none;
+                    }
+                    .dropdown1 a:hover{
+                        color: black;
+                        font-weight: 500;
+                    }
+                .main{
+                    display: flex;
+                    margin: 0 auto;
+                    overflow-x: hidden;
+                    position: relative;
+                    top: 50px;
+                    right:-50px;
+                }
+                .circle{
+                position: absolute;
+                top: -10px;
+                right:0;
+                }
+                .agency{
+                    
+width: 0px;
+                    
+font-family: 'Noto';
+                    
+font-style: normal;
+                    
+font-weight: 500;
+                    
+font-size: 15px;
+                    
+line-height: 156.5%;
+                    
+letter-spacing: 0.135em;
+                    
+text-transform: uppercase;
+                    
+position: relative;
+                    
+top: -630px;
+                    
+left: -480px;
+                    
+margin: 0 auto;
+                }
+                .slash{
+                    position: relative;
+                    display: flex;
+                    color:#FEC90C;
+                    width: 0px;
+                    left: -15px;
+                    top: 23px;
+                }
+                .fully{
+                    margin: 0 auto;
+                    white-space: nowrap;
+                    width: 0px;
+                    position: relative;
+                    font-family: 'Nunito';
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 70px;
+                    line-height: 110.5%;
+                    color: #292930;
+                    top: -600px;
+                    left: -500px;
+                }
+                .mark-purple{
+                color: #5956E8;
+                }
+                .lorem{
+                    width: 0px;
+                    font-family: 'Noto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 156.5%;
+                    top: -590px;
+                    left: -500px;
+                    position: relative;
+                    color: #555555;
+                    white-space: nowrap;
+                    margin: 0 auto;
+                }
+                .ourservice{
+                 right: 0;
+                 position: absolute;
+                 margin: 0 auto;
+                 top: 650px;
+                 left: -820px;
+                 border: none;
+                 white-space: nowrap;
+                 font-family: 'Nunito';
+                 font-style: normal;
+                 font-weight: 500;
+                 font-size: 18px;
+                 line-height: 160%;
+                 text-transform: capitalize;
+                 color: #FFFFFF;
+                 width: 182px;
+                 height: 64px;
+                 background: #292930;
+                 border-radius: 7px;
+                }
+                .ourservice:hover{
+                    cursor: pointer;
+                    color: #292930;
+                    background-color: transparent;
+                    border: 1px solid #292930;
+                    }
+                .getstart2{
+               right: 0;
+               position: absolute;
+               margin: 0 auto;
+               top: 650px;
+               left: -420px;
+               border: none;
+               white-space: nowrap;
+               font-family: 'Nunito';
+               font-style: normal;
+               font-weight: 500;
+               font-size: 18px;
+               line-height: 160%;
+               text-transform: capitalize;
+               color: #FFFFFF;
+               width: 182px;
+               height: 64px;
+               background: #292930;
+               border-radius: 7px;
+               }
+                .getstart2:hover{
+                    cursor: pointer;
+                    color: #292930;
+                    background-color: transparent;
+                    border: 1px solid #292930;
+                    }
+                .black-content{
+                margin: 0 auto;
+                display: grid;
+                justify-content: center;
+                top: 0;
+                left: -470px;
+                }
+                .gear{
+                    position: relative;
+                    top: 130px;
+                    left: 113px;
+                }
+                .services{
+                    position: relative;
+                    top: 25px;
+                    left: 253px;
+                    font-family: 'Noto';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 156.5%;
+                color:#D0D0D0;
+                letter-spacing: 0.135em;
+                text-transform: uppercase;
+                
+                }
+                .slash1{
+                    color: #FEC90C;
+                }
+                .impact{
+                    width: 0px;
+                    position: relative;
+                    top: 10px;
+                    left: 255px;
+                    font-family: 'Nunito';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 40px;
+                    line-height: 110.5%;
+                    color: #FFFFFF;
+                    white-space: nowrap;
+                }
+                .ourservice1{
+                padding-left: 1px;
+                border: none;
+                font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 160%;
+                text-transform: capitalize;
+                color: #292930;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                /* padding: 17px 24px 18px; */
+                gap: 10px;
+                width: 174px;
+                height: 62px;
+                background: #FFFFFF;
+                border-radius: 7px;
+                position: relative;
+                top:-90px;
+                left:1104px;
+                }
+                .arrow-4{
+                    position: relative;
+                    left: 1238px;
+                    top:-129px;
+                }
+                .box1{
+                    width: 352px;
+                    height: 475px;
+                    background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+                    border: 1px solid #424245;
+                    border-radius: 30px;
+                    position: relative;
+                    left: 70px;
+                    top:0px;
+                }
+                .mobile{
+                    position: relative;
+                    left: 35px;
+                    top:38px;
+                }
+                .social-mark{
+                    font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 25px;
+                line-height: 110.5%;
+                color: #FFFFFF;
+                position: relative;
+                top: 15px;
+                left: 45px;
+                }
+                .lorem1{
+                    font-family: 'Noto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 156.5%;
+                position: relative;
+                left: 45px;
+                
+                
+                color: #D0D0D0;
+                
+                }
+                .box2{
+                    width: 352px;
+                    height: 475px;
+                    background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+                    border: 1px solid #424245;
+                    border-radius: 30px;
+                    position: relative;
+                    left: 500px;
+                    top: -475px;
+                }
+                .lorem2{
+                    font-family: 'Noto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 156.5%;
+                    position: relative;
+                    left: 45px;
+                    color: #D0D0D0;
+                    top:3px;
+                }
+                .readmore2{
+                    border: 1px solid #535355;
+                    top: 2px;
+                    width: 266px;
+                    height: 62px;
+                    font-family: 'Nunito';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 160%;
+                    text-align: center;
+                    text-transform: capitalize;
+                    color: #535355;
+                    position: relative;
+                    left: 45px;
+                    background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+                    border-radius: 7px;
+                }
+                .readmore2:hover{
+                    cursor: pointer;
+                    background: #FFDC60;
+                    color: #292930;
+                    border: 1px solid #292930;
+                    }
+                .box3{
+                    width: 352px;
+                    height: 475px;
+                    background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+                    border: 1px solid #424245;
+                    border-radius: 30px;
+                    position: relative;
+                    left: 930px;
+                    top: -950px;
+                }
+                .paid{
+                    font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 25px;
+                line-height: 110.5%;
+                color: #FFFFFF;
+                position: relative;
+                top: 15px;
+                left: 45px;    
+                }
+                .megaphone{
+                    position: relative;
+                    left: 35px;
+                    top:38px;
+                }
+                
+                .icons{
+                    position: relative;
+                    left: 35px;
+                    top:38px;   
+                }
+                .box4{
+                    width: 352px;
+                    height: 475px;
+                    background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+                    border: 1px solid #424245;
+                    border-radius: 30px;
+                    position: relative;
+                    left: 70px;
+                    top:-890px;
+                }
+                
+                .box5{
+                    width: 352px;
+                    height: 475px;
+                    background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+                    border: 1px solid #424245;
+                    border-radius: 30px;
+                    position: relative;
+                    left: 500px;
+                    top:-1366px;
+                }
+                .funel{
+                    position: relative;
+                    left: 35px;
+                    top:38px;   
+                }
+                
+                .box6{
+                    width: 352px;
+                    height: 475px;
+                    background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+                    border: 1px solid #424245;
+                    border-radius: 30px;
+                    position: relative;
+                    left: 930px;
+                    top:-1837px;
+                }
+                .condent{
+                    position: relative;
+                    left: 35px;
+                    top:38px;   
+                }
+                .white-content{
+                    position: absolute;
+                    width: 100%;
+                    height: 1034px;
+                    left: 0px;
+                    top: 2670px;
+                    background: #ffffff;
+                }
+                .icon6{
+                    margin-top: 100px;
+                    display: block;
+                  margin-left: auto;
+                  margin-right: auto;
+                }
+                .price{
+                text-align: center;
+                font-family: 'Noto';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 156.5%;
+                letter-spacing: 0.135em;
+                text-transform: uppercase;
+                }
+                .slash2{
+                    color: #5956E8;
+                }
+                .ourflex{
+                    font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 40px;
+                line-height: 110.5%;
+                text-align: center;
+                color: #292930;
+                }
+                .buying-plan{
+                    margin: 0 auto;
+                    position: relative;
+                    width: 389px;
+                    height: 554px;
+                    left: 47px;
+                    top:9px;
+                    background: #F7F7F7;
+                    border: 1px solid #E2E2E2;
+                    border-radius: 10px;
+                }
+                .starter1{
+                    font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 25px;
+                line-height: 110.5%;
+                
+                text-align: center;
+                
+                color: #292930;
+                
+                }
+                .icons9{
+                    position: relative;
+                    left: 59px;
+                 
+                }
+                .per{
+                    font-family: "Nunito";
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 50px;
+                    line-height: 110.5%;
+                    text-align: center;
+                    color: #292930;
+                    margin-right: 10px;
+                    position: relative;
+                    top: -106px;
+                
+                }
+                .per-month{
+                    font-family: 'Noto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 244%;
+                position: relative;
+                top: -208px;
+                left: 252px;
+                
+                color: #555555;
+                }
+                .check1{
+                    margin-top: -5px;
+                    font-family: "Noto";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 244%;
+                    position: relative;
+                    left: 48px;
+                    top: 10px;
+                    color: #555555;
+                }
+               
+                .check-2{
+                    position: relative;
+                    left: -4px;
+                    top: 3px;
+                    }
+                    .check-3{
+                        position: relative;
+                        left: -35px;
+                        top: 64px;
+                        }
+                .check-3{
+                    position: relative;
+                    left: -5px;
+                    top: 3px
+                }
+                    
+                    .check22{
+                        font-family: "Noto";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 244%;
+                        position: relative;
+                        left: 50px;
+                        top: 0px;
+                        color: #555555;
+                    }
+                    .check23{
+                        font-family: "Noto";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 244%;
+                        position: relative;
+                        left: 47px;
+                        top: -10px;
+                        color: #555555;
+                    }
+                    .check-4{
+                        position: relative;
+                        left: -2px;
+                        top: 2px;
+                    }
+                        
+                    .check24{
+                        font-family: "Noto";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 244%;
+                        position: relative;
+                        left: 47px;
+                        top: -20px;
+                        color: #555555;
+                    }
+                    .check-5{
+                        position: relative;
+                        left: -2px;
+                        top: 2px;
+                    }
+                        
+                    .check25{
+                        font-family: "Noto";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 244%;
+                        position: relative;
+                        left: 47px;
+                        top: -30px;
+                        color: #555555;
+                    }
+                    .check-6{
+                        position: relative;
+                        left: -2px;
+                        top: 2px;
+                    }
+                       
+                    .purchase1{
+                        border: none;
+    width: 313px;
+    height: 64px;
+    background: #292930;
+    border-radius: 7px;
+    font-family: 'Nunito';
+                        
+            font-style: normal;
+                        
+            font-weight: 500;
+                         font-size: 18px;
+                        
+            line-height: 160%;
+                        
+            position: relative;
+                        
+            left: 40px;
+                        
+            top: -20px;
+                        
+            text-align: center;
+                        
+            text-transform: capitalize;
+                        
+            color: #FFFFFF;
+                    }
+                   
+                    .icons10{
+                        position: relative;
+                        left: 74px;
+                        top: 5px;
+                    }
+                    .buying-1{
+                        margin: 0 auto;
+                        position: relative;
+                        width: 389px;
+                        height: 554px;
+                        left: 883px;
+                        top: -1102px;
+                        background: #F7F7F7;
+                        border: 1px solid #E2E2E2;
+                        border-radius: 10px;
+                    }
+                    .buying{
+                        margin: 0 auto;
+                        position: relative;
+                        width: 389px;
+                        height: 554px;
+                        left: 465px;
+                        top: -546px;
+                        background: #F7F7F7;
+                        border: 1px solid #E2E2E2;
+                        border-radius: 10px;
+                    }
+                    .buying-1:hover{
+                        cursor: pointer;
+                        background-color: #292930;
+                        color: #F7F7F7;
+                                    }
+                                    .buying-1:hover .per{
+                                        cursor: pointer;
+                        color: #F7F7F7;
+                                    }
+                                    .buying-1:hover .starter1{
+                                        cursor: pointer;
+                        color: #F7F7F7;
+                    }
+                    .buying-1:hover .purchase1{
+                        cursor: pointer;
+                        background-color: #F7F7F7;
+        color: #292930;
+                    }
+                    .buying-1:hover .check1{
+                        cursor: pointer;
+        color: #F7F7F7;
+                    }
+                    .buying-1:hover .check22{
+                        cursor: pointer;
+        color: #F7F7F7;
+                    }
+                    .buying-1:hover .check23{
+                        cursor: pointer;
+        color: #F7F7F7;
+                    }
+                    .buying-1:hover .check24{
+                        cursor: pointer;
+        color: #F7F7F7;
+                    }
+                    .buying-1:hover .check25{
+                        cursor: pointer;
+        color: #F7F7F7;
+                    }
+                   
+                    .buying-1:hover .per-month{
+                        cursor: pointer;
+        color: #F7F7F7;
+                    }
+                    .buying-1:hover .per{
+                        cursor: pointer;
+        color: #F7F7F7;
+                    }
+    
+    
+    
+    
+                    .buying:hover{
+                        cursor: pointer;
+        background-color: #292930;
+        color: #F7F7F7;
+                    }
+                    .buying:hover .per{
+                        cursor: pointer;
+        color: #F7F7F7;
+                    }
+                    .buying:hover .starter1{
+                        cursor: pointer;
+        color: #F7F7F7;
+                    }
+                    .buying:hover .purchase1{
+                        cursor: pointer;
+                        background-color: #F7F7F7;
+        color: #292930;
+                    }
+                    .buying:hover .check1{
+                        cursor: pointer;
+        color: #F7F7F7;
+                    }
+                    .buying:hover .check22{
+                        cursor: pointer;
+        color: #F7F7F7;
+                    }
+                    .buying:hover .check23{
+                        cursor: pointer;
+        color: #F7F7F7;
+                    }
+                    .buying:hover .check24{
+                        cursor: pointer;
+        color: #F7F7F7;
+                    }
+                    .buying:hover .check25{
+                        cursor: pointer;
+        color: #F7F7F7;
+                    }
+                    .per-month:hover{
+                        cursor: pointer;
+                        color: #F7F7F7;    
+                    }
+                    .buying:hover .per-month{
+                        cursor: pointer;
+        color: #F7F7F7;
+                    }
+    .buying-plan:hover{
+        cursor: pointer;
+        background-color: #292930;
+        color: #F7F7F7;   
+    }
+    .buying-1:hover .per{
+        cursor: pointer;
+    color: #F7F7F7;
+    }
+    .buying-1:hover .starter1{
+        cursor: pointer;
+    color: #F7F7F7;
+    }
+    .buying-1:hover .purchase1{
+    cursor: pointer;
+    background-color: #F7F7F7;
+    color: #292930;
+    }
+    .buying-1:hover .check1{
+    cursor: pointer;
+    color: #F7F7F7;
+    }
+    .buying-1:hover .check22{
+    cursor: pointer;
+    color: #F7F7F7;
+    }
+    .buying-1:hover .check23{
+    cursor: pointer;
+    color: #F7F7F7;
+    }
+    .buying-1:hover .check24{
+    cursor: pointer;
+    color: #F7F7F7;
+    }
+    .buying-1:hover .check25{
+    cursor: pointer;
+    color: #F7F7F7;
+    }
+    
+    .buying-1:hover .per-month{
+    cursor: pointer;
+    color: #F7F7F7;
+    }
+    .buying-1:hover .per{
+    cursor: pointer;
+    color: #F7F7F7;
+    }
+    
+    
+    
+    
+    .buying-plan:hover{
+    cursor: pointer;
+    background-color: #292930;
+    color: #F7F7F7;
+    }
+    .buying-plan:hover .per{
+    cursor: pointer;
+    color: #F7F7F7;
+    }
+    .buying-plan:hover .starter1{
+    cursor: pointer;
+    color: #F7F7F7;
+    }
+    .buying-plan:hover .purchase1{
+    cursor: pointer;
+    background-color: #F7F7F7;
+    color: #292930;
+    }
+    .buying-plan:hover .check1{
+    cursor: pointer;
+    color: #F7F7F7;
+    }
+    .buying-plan:hover .check22{
+    cursor: pointer;
+    color: #F7F7F7;
+    }
+    .buying-plan:hover .check23{
+    cursor: pointer;
+    color: #F7F7F7;
+    }
+    .buying-plan:hover .check24{
+    cursor: pointer;
+    color: #F7F7F7;
+    }
+    .buying-plan:hover .check25{
+    cursor: pointer;
+    color: #F7F7F7;
+    }
+    .buying-plan.per-month:hover{
+    cursor: pointer;
+    color: #F7F7F7;    
+    }
+    .buying-plan:hover .per-month{
+    cursor: pointer;
+    color: #F7F7F7;
+    }
+    .black-content1{
+    display: flex;
+    left: -470px;
+    margin: 0 auto;
+    position: relative;
+    justify-content: center;
+    }
+    .content-pro{
+    position: relative;
+    top: 200px;
+    width: 399px;
+    height: 652.16px;
+    left: 100px;
+    background: #3C3C45;
+    border-radius: 7px;
+    
+    }
+    .promote-2{
+        position: relative;
+        left: 56px;
+        top:48px;
+    }
+    .logo-3{
+        position: relative;
+        left: 70px;
+        top:44px;
+        
+    }
+    .subscribe{
+        font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 110.5%;
+    
+    position: relative;
+    left: 56px;
+    top:34px;
+    
+    color: #FFFFFF;
+    }
+    .industry{
+        font-family: 'noto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156.5%;
+    position: relative;
+    left: 58px;
+    top: 23px;
+    color: #D0D0D0;
+    }
+    .input1{
+     
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 160%;
+    
+        
+        text-transform: capitalize;
+        
+        color: #FFFFFF;
+    position: relative;
+    left: 2px;
+    top: 5px;
+    }
+    
+    .input{
+        width: 148px;
+        height: 29px;
+        background-color: #5B5B61;
+        border: transparent;
+        padding-left: 66px;
+        padding-top: 10px;
+        font-size: 18px;
+        color: #FFFFFF;
+    left: 0px;
+    top: 103px;
+    
+    background: #5B5B61;
+    border-radius: 7px;}
+    .input1::placeholder {
+        font-family:Nunito;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 160%;
+        text-transform: capitalize;
+        color: #FFFFFF;}
+    .phone{
+        position: relative;
+        left: 180px;
+        top: -450px;
+    }
+    .touch{
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 110.5%;
+        position: relative;
+        left: 510px;
+        top: -556px;
+        color: #FFFFFF;
+    }
+    .number{
+        width: 255px;
+    height: 62px;
+    position: relative;
+    left: 474px;
+    top: -597px;
+    background: #3C3C45;
+    border-radius: 7px;
+    
+    font-family: 'noto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 156.5%;
+    
+    
+    
+    color: #FFDC60;
+    }
+    .number-1{
+        position: relative;
+        left: 30px;
+        top: 10px;
+        font-family: 'noto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 156.5%;
+        text-align: center;
+        color: #FFDC60;
+    }
+    .email{border: none;background: #5B5B61;
+        border-radius: 7px;
+        width: 293px;height: 62px;
+        font-family: 'Noto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 156.5%;
+        position: relative;
+        left: 54px;
+        top:20px;
+        padding-left:
+         20px;color: #FFFFFF;}
+    .email::placeholder{
+       color: #FFFFFF;
+    }
+    .line3{
+        width: 702px;
+    height: 0px;
+    
+    border: 1px solid #727274;
+    position: relative;
+    left: 1px;
+    top: 33px;
+    }
+    .location{
+        position: relative;
+        left: 354px;
+        top: -170px;
+    }
+    .location1{
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 110.5%;
+        color: #FFFFFF;
+        position: relative;
+        left: 380px;
+        top: -260px;
+    }
+    .location2{
+        white-space: nowrap;
+        font-family: 'noto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 156.5%;
+        position: relative;
+        left: 355px;
+        top: -300px;
+        color: #FFFFFF;
+    }
+    .location3{
+        font-family: 'noto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 156.5%;
+        text-decoration-line: underline;
+        color: #FFDC60;
+        position: relative;
+        left: 357px;
+        top: -310px;
+    }
+    .icon-12{
+    position: relative;
+    left: -66px;
+    top:-196px;
+    }
+    .pages{
+        font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 110.5%;
+    color: #FFFFFF;
+    position: relative;
+    left: 41px;
+    top:-294px;
+    }
+    .icon-13{
+        position: relative;
+        left: 230px;
+        top: -382px;
+    }
+    .pages1{
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 110.5%;
+     color: #FFFFFF;
+     position: relative;
+     left: 265px;
+     top:-478px;
+    }
+    .icon-14{
+        position: relative;
+        left: 541px;
+        top: -567px;
+    }
+    .pages2{
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 110.5%;
+     color: #FFFFFF;
+     position: relative;
+     left: 578px;
+     top:-659px;
+    }
+    .email2{
+        position: relative;
+        font-family: 'Noto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 156.5%;
+        /* or 28px */
+        color: #FFFFFF;
+        top: 20px;
+        left: 5px;
+    }
+    .input{
+        color: #E2E2E2;
+    }
+    .email-1{
+        width: 293px;
+        height: 62px;
+        background: #FFDC60;
+        border-radius: 7px;
+        border: transparent;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 160%;
+        position: relative;
+        left: -420px;
+        top: -420px;
+        text-transform: capitalize;
+        color: #292930;
+    }
+    .footer-menu{
+        position: relative;
+        left: -12px;
+        top: -795px;
+    }
+    .home-33{
+        font-family: 'noto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 211.5%;
+    position: relative;
+    left: 20px;
+    top: 33px;
+    text-decoration: none;
+    color: #FFFFFF;
+    }
+    .about-1{
+        font-family: 'noto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 211.5%;
+    position: relative;
+    left: 20px;
+    top: 33px;
+    text-decoration: none;
+    color: #FFFFFF;
+    }
+    .blog-1{
+        
+            font-family: 'noto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 211.5%;
+        position: relative;
+        left: 20px;
+        top: 33px;
+        text-decoration: none;
+        color: #FFFFFF;
+        }
+        .pricing-single{
+        
+            font-family: 'noto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 211.5%;
+        position: relative;
+        left: 20px;
+        top: 33px;
+        text-decoration: none;
+        color: #FFFFFF;
+        }
+        .contact-1{
+        
+            font-family: 'noto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 211.5%;
+        position: relative;
+        left: 20px;
+        top: 33px;
+        text-decoration: none;
+        color: #FFFFFF;
+        }
+        .services-1{
+            font-family: 'noto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 211.5%;
+            position: relative;
+            left: 20px;
+            top: 33px;
+            text-decoration: none;
+            color: #FFFFFF;    
+        }
+        .footer-menu1{
+            position: relative;
+            left: 236px;
+            top: -1011px;
+        
+    
+        }
+    
+        .Styleguide
+        {font-family: 'noto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 211.5%;
+        color: #FFFFFF;
+        text-decoration: none;}
+        
+        .Found
+    {font-family: 'noto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 211.5%;
+    color: #FFFFFF;
+    text-decoration: none;}
+    .Password {
+        font-family: 'noto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 211.5%;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    .Licenses {
+        font-family: 'noto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 211.5%;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    .Changelog{
+        font-family: 'noto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 211.5%;
+            color: #FFFFFF;
+            text-decoration: none;
+    }
+    .footer-menu2{
+    position: relative;
+    left: 548px;
+    top: -1220px;
+    }
+    .Facebook{
+    font-family: 'noto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 211.5%;
+    color: #FFFFFF;
+    text-decoration: none;
+    }
+    .Twitter{
+    font-family: 'noto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 211.5%;
+    color: #FFFFFF;
+    text-decoration: none;
+    }
+    .Instagram{
+    font-family: 'noto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 211.5%;
+    color: #FFFFFF;
+    text-decoration: none;
+    }
+    .LinkedIn{
+    font-family: 'noto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 211.5%;
+    color: #FFFFFF;
+    text-decoration: none;
+    }
+    .line4{
+    position:relative;
+    width: 702px;
+    left: -538px;
+    top: 114px;
+    background: #292930;
+    }
+    .nextlevel{
+    font-family: 'noto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 211.5%;
+    white-space:nowrap;
+    position: relative;
+    left: -448px;
+    top:123px;
+    color: #FFFFFF;
+    }
+    .Subscribe-1{
+        color: #292930;
+        text-decoration: none;
+    }
+.conteiner-2{
+        position: absolute;
+    width: 100%;
+    height: 1579px;
+    left: 0px;
+    top: 1091px;
+    background: #292930;
+}
+.buyplan{
+    margin-left: -925px;
+}
+.conteiner-4{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: absolute;
+    width: 100%;
+    height: 1034px;
+    left: 0px;
+    top: 3700px;
+    background: #292930;
+}
+
+.marketing{
+    margin:0 auto;
+}
